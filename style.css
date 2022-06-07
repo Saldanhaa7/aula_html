@@ -60,11 +60,19 @@ a {
     padding-left: 15px;
 }
 
-.row h3 {
+.row p {
     text-align: center;
 }
 
 .gmail {
-    margin-top: 50px;
+    margin-top: 17px;
     margin-bottom: 15px;
+}
+
+.contatos {
+    text-align: center;
+}
+
+.col-lg-2 {
+    margin-right: 225px;
 }
