@@ -10,6 +10,10 @@ body {
     border-radius: 50%;
 }
 
+.container-fluid {
+    background-color: #cfcfcf;
+}
+
 #title, .subtitle, .post_title {
     color: #505050;
 }
@@ -56,6 +60,11 @@ a {
     padding-left: 15px;
 }
 
-.contacts_list li a {
-    text-decoration: none;
+.row h3 {
+    text-align: center;
+}
+
+.gmail {
+    margin-top: 50px;
+    margin-bottom: 15px;
 }

@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="utf-8">
         <title>Bruno Saldanha de Oliveira</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <img src="eu.jpg" alt="foto do Bruno" class="photo">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid text-right">
+                        <a class="navbar-brand" href="https://github.com/Saldanhaa7" target="_blank">
+                        <img src="eu.jpg" alt="foto do Bruno" class="photo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#texto">Última postagem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contatos">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <h1 id="title">Bruno Saldanha de Oliveira</h1>
         </header>
-        <section>
+        <section id="home">
             <header>
                 <h2 class="subtitle">Posts</h2>
             </header>
@@ -18,7 +41,7 @@
                 <header>
                     <h3 class="post_title">Post #1</h3>
                     <a href="https://github.com/Saldanhaa7" target="_blank">
-                        <img src="curso.jpg" alt="editor de texto contendo código html" class="post_image">
+                        <img  id="texto" src="curso.jpg" alt="editor de texto contendo código html" class="post_image">
                     </a> 
                 </header>
                 <p class="post_content">
@@ -26,18 +49,29 @@
                 </p>
             </article>
         </section>
-        <footer>
-            <ul class="contacts_list">
-                <li>
-                    <a href="mailto:bruno14042003@gmail.com">bruno1402003@gmail.com</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/saldanhaa7" target="_blank">Instagram</a>
-                </li>
-                <li>
-                    <a href="https://github.com/Saldanhaa7" target="_blank">Github</a>
-                </li>
-            </ul>
+        <footer id="contatos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="https://github.com/Saldanhaa7" target="_blank">
+                            <img src="github2.png" width="100%">
+                        </a>
+                        <h3>Github</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="mailto:bruno14042003@gmail.com">
+                            <img class ="gmail" src="gmail.png" width="100%">
+                        </a>
+                        <h3>Gmail</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.instagram.com/saldanhaa7" target="_blank">
+                            <img src="instagram.png" width="100%">
+                        </a>
+                        <h3>Instagram</h3>
+                    </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
